@@ -35,6 +35,6 @@ setuptools.setup(
     entry_points={
         "console_scripts": "tf-policy-validator=iam_check.iam_check:main"
     },
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     install_requires=["boto3>=1.20", "pyYAML>=5.3"],
 )
